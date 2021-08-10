@@ -56,8 +56,7 @@ li {
 
 #header a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    color: #5f6368;
     text-decoration: none;
     font-size: 14px;
 }
@@ -75,7 +74,6 @@ li {
 }
 
 footer {
-    display: block;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -85,9 +83,7 @@ footer {
 }
 
 footer a {
-    padding: 14px 16px;
     color: #5f6368;
     text-decoration: none;
     font-size: 14px;
-    margin-left: 15px;
 }
