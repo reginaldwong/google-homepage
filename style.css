@@ -91,7 +91,7 @@ ul > input {
 .nav-img:hover {
     cursor: pointer;
     box-shadow: 0 0 10px gainsboro;
-    border-radius: 30px;
+    border-radius: 4px;
 }
 
 /* SEARCHBAR */
