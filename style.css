@@ -106,6 +106,8 @@ ul > input {
 
 #form-container {
     position: relative;
+    display: flex;
+    min-width: 100px;
 }
 
 #form-container input {
@@ -120,14 +122,14 @@ ul > input {
 #form-container #search_icon {
     position: absolute;
     color: #5F6368;
-    left: 13px;
+    left: 20px;
     top: 47px;
 }
 
 #form-container #mic_icon {
     position: absolute;
     color: #5F6368;
-    right: 12px;
+    right: 20px;
     top: 47px;
 }
 
@@ -146,6 +148,12 @@ ul > input {
     padding: 10px 13px;
     cursor: pointer;
     margin: 0 5px;
+}
+
+#searchbar-buttons input:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px gainsboro;
+    border-radius: 4px;
 }
 
 /* FOOTER */
