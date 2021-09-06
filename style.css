@@ -1,3 +1,5 @@
+/* CSS RESET */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -170,8 +172,15 @@ footer {
     justify-content: space-between;
 }
 
-#left-section, #right-section {
+#left-section {
     display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+#right-section {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
 }
 
@@ -181,3 +190,33 @@ footer a {
     text-decoration: none;
     margin: 20px;
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 640px) {
+
+    footer {
+        flex-direction: column;
+        height: 5vh;    
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    #left-section {
+        justify-content: center;
+        
+    }
+
+    #right-section {
+        justify-content: center;
+    }
+
+    #searchbar {
+        height: 80vh;
+    }
+
+
+}
+
+
+
